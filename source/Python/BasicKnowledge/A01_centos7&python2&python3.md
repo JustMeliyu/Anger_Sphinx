@@ -1,4 +1,4 @@
-无财作为, 少有斗智, 既饶争时
+**无财作为, 少有斗智, 既饶争时**
 
 1.1 centos7下py2与py3的共存
 ===========================
@@ -11,30 +11,24 @@
 获取python3
     
     wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz
-
-解压
-
+    //解压
     tar -zxf Python-3.7.2.tgz
-
     cd Python-3.7.2
 
 配置编译安装
 建议添加 --prefix，安装到指定目录
 
     ./configure --prefix=/usr/local/python3
-
     make &&make install
 
 ## 配置
 
- 1. 为python3添加软链接
- 
+1.为python3添加软链接
 
     ln -s /usr/local/python3.7/bin/python3.7 /usr/bin/python3
  
- 2. 如果想将python3设置为默认，也可以
- 
-    
+2.如果想将python3设置为默认，也可以
+
     ln -s /usr/local/python3.7/bin/python3.7 /usr/bin/python
 
 python2还存在 python2命令
@@ -47,8 +41,7 @@ python2还存在 python2命令
 
 ## 安装pip3
 
- 1. 获取安装包
- 
+1.获取安装包
 
     wget https://pypi.python.org/packages/source/s/setuptools/setuptools-19.6.tar.gz#md5=c607dd118eae682c44ed146367a17e26
     tar -zxvf setuptools-19.6.tar.gz 
@@ -58,8 +51,7 @@ python2还存在 python2命令
 
 这里的"python" 取决于之前安装python3时定义的 python3或python
  
- 2. 添加软链接
-
+2.添加软链接
 
     ln -s /usr/local/python3.7/bin/pip3 /usr/bin/pip3
 
