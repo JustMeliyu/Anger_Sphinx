@@ -1,2 +1,2 @@
-# Rage_Sphinx
-Rage_Sphinx
+# Rage
+my blog
