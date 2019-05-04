@@ -14,6 +14,7 @@
    - [Centos7下同时安装py2&py3](./source/Python/BasicKnowledge/A01_01_centos7_install_py2&py3.md)
    - [py2与py3之间的区别](./source/Python/BasicKnowledge/A01_02_diff_py2&py3.md)
    - [浅拷贝与深拷贝](./source/Python/BasicKnowledge/A01_03_copy.md)
+
 [Linux篇](./source/Linux/Linux.rst)
 - [2.1 文件权限](./source/Linux/B01_FileAuthority.md)
 - [2.2 VI文字处理](./source/Linux/B02_VI.md)
