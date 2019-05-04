@@ -1,4 +1,4 @@
-# Rage
+# Anger
 
 [前言](./source/preface.md)：
 
