@@ -68,3 +68,27 @@ test.log:
  
 2.`history [n]` 查看最近n条记录
 
+### ps
+
+
+### netstat
+Netstat 命令用于显示各种网络相关信息，如网络连接，路由表，接口状态 (Interface Statistics)，masquerade 连接，多播成员 (Multicast Memberships) 等等
+
+参数如下:
+    
+    -a (all)显示所有选项，netstat默认不显示LISTEN相关
+    -n 拒绝显示别名，能显示数字的全部转化成数字。(重要)
+    -l 仅列出有在 Listen (监听) 的服務状态
+    -s 按各个协议进行统计 (重要)
+    -p 显示建立相关链接的程序名(macOS中表示协议 -p protocol)
+    
+    -t (tcp)仅显示tcp相关选项
+    -u (udp)仅显示udp相关选项
+    -r 显示路由信息，路由表
+    -e 显示扩展信息，例如uid等
+    -c 每隔一个固定时间，执行该netstat命令。
+ 
+ 
+查看端口占有情况
+
+    netstat -lnp |grep 5001
