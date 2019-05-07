@@ -11,4 +11,5 @@ Contents:
     Python/Python.rst
     Linux/Linux.rst
     DataBase/DataBase.rst
+    Algorithm/Algorithm.rst
 
