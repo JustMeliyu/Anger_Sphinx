@@ -45,3 +45,4 @@ def two_sum2(nums, target):
     print("result is null")
     return None, None
 ```
+
