@@ -7,7 +7,7 @@
 具体实现方法有如下几种(皆基于python实现), 
 **[github链接](https://github.com/JustMeliyu/Algorithm/blob/master/quick_sort.py)**
 
-### 方法一 
+### 算法一 
 此方法会牺牲掉一些空间, 因为每一次都会增加两个数组
 ```python
 # encoding: utf-8
@@ -30,7 +30,7 @@ def quick_sort1(my_list):
         return my_list
 ```
 
-### 方法二
+### 算法二
 左右依次交替比较, 此方法会重复比较几次元素
 ```python
 # encoding: utf-8
@@ -60,7 +60,7 @@ def quick_sort2(start, end, my_list):
     return my_list            
 ```
 
-### 方法二变形
+### 算法三(算法二变形)
 
 ```python
 # encoding: utf-8

@@ -22,6 +22,9 @@
 
 请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
          
+具体实现方法有如下几种(皆基于python实现), 
+**[github链接](https://github.com/JustMeliyu/Algorithm/blob/master/repeat_str.py)**
+
 
 ### 算法一: 暴力法
 两层循环, 第一层(i)从0开始, 第二层从(i+1)开始, 验证 i~j 中是否存在重复元素, 并保留其长度;
