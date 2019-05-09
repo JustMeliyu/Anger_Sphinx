@@ -10,10 +10,9 @@
 主要包含以下内容:
 
 [Python篇](./source/Python/Python.rst):
-- [第一节： 基础知识](./source/Python/BasicKnowledge/BasicKnowledge.rst)
-   - [Centos7下同时安装py2&py3](./source/Python/BasicKnowledge/A01_01_centos7_install_py2&py3.md)
-   - [py2与py3之间的区别](./source/Python/BasicKnowledge/A01_02_diff_py2&py3.md)
-   - [浅拷贝与深拷贝](./source/Python/BasicKnowledge/A01_03_copy.md)
+- [1.1 Centos7下同时安装py2&py3](./source/Python/A01_01_centos7_install_py2&py3.md)
+- [1.2 py2与py3之间的区别](./source/Python/A01_02_diff_py2&py3.md)
+- [1.3 浅拷贝与深拷贝](./source/Python/A01_03_copy.md)
 
 [Linux篇](./source/Linux/Linux.rst)
 - [2.1 文件权限](./source/Linux/B01_FileAuthority.md)
