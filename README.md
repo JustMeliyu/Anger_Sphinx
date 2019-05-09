@@ -21,3 +21,8 @@
 
 [DataBase篇](./source/DataBase/DataBase.rst)
 - [3.1 mysql基础](./source/DataBase/C01_MysqlBasic.md)
+
+[Algorithm篇](./source/Algorithm/Algorithm.rst)
+- [4.1 快速排序](./source/Algorithm/D01_QuickSort.md)
+- [4.2 两数之合](./source/Algorithm/D02_TwoSum.md)
+- [4.3 无重复字符最大长度](./source/Algorithm/D03_RepeatStr.md)
