@@ -32,8 +32,8 @@
     ln -s /usr/local/python3.7/bin/python3.7 /usr/bin/python
 
 python2还存在 python2命令
-不过由于centos7yum命令依赖python2，所以需对以下文件的头部作修改
-及将 /usr/bin/python 修改为 /usr/bin/python2
+不过由于centos7 `yum` 命令依赖python2，所以需对以下文件的头部作修改
+及将 `/usr/bin/python` 修改为 `/usr/bin/python2`
 
     vim /usr/bin/yum
     vim /usr/libexec/urlgrabber-ext-down
