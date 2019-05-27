@@ -8,11 +8,15 @@
 
 <p style="font-family:'Microsoft YaHei'">我是微软雅黑</p>
 
-<font face="楷体">我是楷体</font>
+<font face="微软雅黑">我是微软雅黑</font>
+
+<font face="KaiTi">我是楷体</font>
 
 <font face="隶书">我是隶书</font>
 
 <font face="STCAIYUN">我是华文彩云</font>
+
+<font face="STKaiTI">我是华文彩云</font>
 
 <font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="黑体"</font>
 
