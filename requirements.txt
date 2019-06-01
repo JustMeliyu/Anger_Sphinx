@@ -1,3 +1,4 @@
+pyparsing==2.2.0
 greenlet==0.4.15
 oauthlib==0.7.2
 paho-mqtt==1.0
