@@ -30,3 +30,6 @@
 
 [Crawler篇](./source/Crawler/Crawler.rst)
 - [5.1 SCRAPY重要特性](./source/Crawler/E01_ImportantFeature.md)
+
+[环境安装篇](./source/EnvironmentInstall/EnvironmentInstall.rst)
+- [6.1 MongoDB安装](./source/EnvironmentInstall/F01_MongoDB.md)
