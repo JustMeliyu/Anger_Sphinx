@@ -13,3 +13,4 @@ Contents:
     DataBase/DataBase.rst
     Algorithm/Algorithm.rst
     Crawler/Crawler.rst
+    EnvironmentInstall/EnvironmentInstall.rst

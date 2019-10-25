@@ -1,9 +1,10 @@
-greenlet==0.4.5
+pyparsing==2.2.0
+greenlet==0.4.15
 oauthlib==0.7.2
 paho-mqtt==1.0
-tzlocal==1.1.2
-redis==2.10.3
-requests>=2.20.0
+tzlocal==1.5.1
+redis
+requests
 requests-oauthlib==0.4.2
 whitenoise==1.0.3
 openpyxl==2.4.8
