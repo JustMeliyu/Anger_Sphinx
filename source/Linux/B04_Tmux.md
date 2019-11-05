@@ -65,6 +65,9 @@ tmux: Terminal MultipleXer,意思是终端复用器;
 
 `ctrl+a &` 关闭当前窗口
 
+`ctrl+a ,` 重命名当前窗口
+
+
 ### 2.4.5 窗格(pane)
 
 pane 才是真正意义上操作的最小单位
