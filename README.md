@@ -10,11 +10,13 @@
 主要包含以下内容:
 
 [Python篇](./source/Python/Python.rst):
-- [1.1 Python一些基础知识](./source/Python/A01_Basic_Info.md)
-- [1.2 Centos7下同时安装py2&py3](./source/Python/A02_centos7_install_py2&py3.md)
-- [1.3 py2与py3之间的区别](./source/Python/A03_diff_py2&py3.md)
-- [1.4 浅拷贝与深拷贝](./source/Python/A04_copy.md)
-- [1.5 Numpy使用](./source/Python/A05_Numpy.md)
+- [1.1 Python一些基础知识](./source/Python/A0001_Basic_Info.md)
+- [1.2 Centos7下同时安装py2&py3](./source/Python/A0002_centos7_install_py2&py3.md)
+- [1.3 py2与py3之间的区别](./source/Python/A0003_diff_py2&py3.md)
+- [1.4 浅拷贝与深拷贝](./source/Python/A0004_copy.md)
+- [1.5 Numpy使用](./source/Python/A0005_Numpy.md)
+- [1.6 Websocket](./source/Python/A0006_Websocket.md)
+- [1.7 垃圾回收](./source/Python/A0007_GC.md)
 
 [Linux篇](./source/Linux/Linux.rst)
 - [2.1 文件权限](./source/Linux/B01_FileAuthority.md)
