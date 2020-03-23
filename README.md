@@ -17,6 +17,7 @@
 - [1.5 Numpy使用](./source/Python/A0005_Numpy.md)
 - [1.6 Websocket](./source/Python/A0006_Websocket.md)
 - [1.7 垃圾回收](./source/Python/A0007_GC.md)
+- [1.8 连接池](./source/Python/A0008_pool.md)
 
 [Linux篇](./source/Linux/Linux.rst)
 - [2.1 文件权限](./source/Linux/B01_FileAuthority.md)
