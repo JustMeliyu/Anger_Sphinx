@@ -2,7 +2,7 @@
 
 # SCRAPY 重要特性
 
-### 1.spiders流程逻辑
+## 1.spiders流程逻辑
 Spider类定义了如何爬取某个(或某些)网站。包括了爬取的动作(例如:是否跟进链接)以及如何从网页的内容中提取结构化数据(爬取item)。
 换句话说，Spider就是您定义爬取的动作及分析某个网页(或者是有些网页)的地方。
 
@@ -23,7 +23,7 @@ Spider类定义了如何爬取某个(或某些)网站。包括了爬取的动作
 
 4. 最后，由spider返回的item将被存到数据库(由某些`Item Pipeline`处理)或使用 `Feed exports` 存入到文件中。
 
-### 2.item pipeline
+## 2.item pipeline
 https://scrapy-chs.readthedocs.io/zh_CN/latest/topics/item-pipeline.html
 
 一般作用：
@@ -56,7 +56,7 @@ Crawler.pipelines.CrawlerPipeline 是指定类名称, 300是优先级
 <font color="red" face="KaiTi">
 note: 如果后续还需使用 `item`, 则必须将spider爬取的数据返回</font>
 
-### 3.Downloader Middleware
+## 3.Downloader Middleware
 下载中间件, 在爬取之前, 对Request请求做一些处理;
 
 框架默认有一些中间件, 在`DOWNLOADER_MIDDLEWARES_BASE`进行设置, 但是一般不去更改这个;
@@ -73,7 +73,7 @@ note: 如果后续还需使用 `item`, 则必须将spider爬取的数据返回</
 - process_response(self, request, response, spider)
     在收到 `Response` 后, 做一些处理 
     
-### 4.Item Loaders
+## 4.Item Loaders
 
 `items` 是保存数据的容器    `ItemLoader` 是提供填充容器数据的机制
 

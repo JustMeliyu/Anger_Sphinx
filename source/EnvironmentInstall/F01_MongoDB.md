@@ -1,7 +1,7 @@
 
 # 6.1 Centos7下MongoDB及GUI安装
 
-### MongoDB安装
+## MongoDB安装
 
 1.添加源
 
@@ -42,7 +42,7 @@
     db.createUser({user:'root',pwd:'root',roles:[{ "role" : "root", "db" : "admin" }]});
 
     
-### GUI工具, adminMongo
+## GUI工具, adminMongo
 
 1 源码
 

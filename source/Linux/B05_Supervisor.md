@@ -3,7 +3,7 @@
 2.5 进程管理程序---supervisor
 ============================
 
-### 2.5.1 安装
+## 2.5.1 安装
 
 1.yum安装
 
@@ -13,7 +13,7 @@
 
     pip install supervisor
     
-### 2.5.2配置
+## 2.5.2配置
 
 1.设置配置文件目录
 
@@ -70,7 +70,7 @@
     stdout_logfile = /home/ly/code/camel_project/logs/platform.log
     
 
-### 2.5.3 supervisor 启动
+## 2.5.3 supervisor 启动
 
 1.开机启动
 
@@ -108,7 +108,7 @@
 如果启动失败, 可能是已经被启动, 可杀死相关进程, 重新启动
 
 
-### 2.5.4 常用命令
+## 2.5.4 常用命令
 
     supervisorctl restart <application name> ;重启指定应用
     supervisorctl stop <application name> ;停止指定应用

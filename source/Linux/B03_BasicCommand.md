@@ -1,6 +1,6 @@
 # 2.3 常用Linux命令
 
-### find
+## find
 从 '/' 开始进入根文件系统搜索文件和目录, 可模糊查询
 
     find / -name file1 
@@ -12,7 +12,7 @@
 - `ctime` 过去几天被修改过的文件
 - `cmin` 过去几分钟被修改过的文件
 
-### awk
+## awk
 
 awk 是一个文本处理的应用程序, 它会依次处理文件的每一行, 并读取里面的每一个字段, 
 适合处理标准日志及CSV格式等文件, 这里介绍其简单的应用;
@@ -58,7 +58,7 @@ test.log:
     20608) INFO <type 'str'>
     20609) INFO 16a56ba2f675404246cf48944c8ada06 is not finish, PASS
 
-### history
+## history
 `history` 查看历史执行命令
 
 1.一些配置：
@@ -68,10 +68,10 @@ test.log:
  
 2.`history [n]` 查看最近n条记录
 
-### ps
+## ps
 
 
-### netstat
+## netstat
 Netstat 命令用于显示各种网络相关信息，如网络连接，路由表，接口状态 (Interface Statistics)，masquerade 连接，多播成员 (Multicast Memberships) 等等
 
 参数如下:
