@@ -15,7 +15,7 @@
 - [1.3 py2与py3之间的区别](./source/Python/A0003_diff_py2&py3.md)
 - [1.4 浅拷贝与深拷贝](./source/Python/A0004_copy.md)
 - [1.5 Numpy使用](./source/Python/A0005_Numpy.md)
-- [1.6 WebSocket](./source/Python/A0006_Websocket.md)
+- [1.6 Flask](./source/Python/A0006_flask.md)
 - [1.7 垃圾回收](./source/Python/A0007_GC.md)
 - [1.8 连接池](./source/Python/A0008_pool.md)
 
