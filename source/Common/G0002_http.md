@@ -1,6 +1,6 @@
 **无财作为, 少有斗智, 既饶争时**
 
-HTTP 7.2 协议
+7.2 HTTP协议
 ==========
 
 
@@ -37,7 +37,7 @@ HTTP是通过URL来传递数据和建立连接
 ## 7.2.4 REQUEST
 客户端发送一个HTPP请求，包含以下格式: **请求行、请求头、空行、请求数据**
 
-![HTTP请求头](../_templates/Common/G0002_HTTP请求消息结构.png)
+![HTTP请求头](../_templates/Common/G0002_HTTP_request.png)
 
 **GET请求**
 ![GET](../_templates/Common/G0002_REQUEST_GET.png)

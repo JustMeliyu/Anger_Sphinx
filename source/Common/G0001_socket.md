@@ -16,7 +16,7 @@ WebSocket 是HTML5下的一种协议。与HTTP协议一样，都是属于应用�
 
 
 ## 7.1.2 请求&响应
-![请求头](../_templates/Common/G0001_请求头.png)
+![请求头](../_templates/Common/G0001_header.png)
 
 - 如上图所示，相对于传统的HTTP协议的请求头，WebSocket在请求行中，地址信息为`ws`开头；
 - 在请求头部中，多了以下两个信息，对服务器标记，这个请求不同与HTTP协议
@@ -28,7 +28,7 @@ WebSocket 是HTML5下的一种协议。与HTTP协议一样，都是属于应用�
 - Sec-WebSocket-Key是用于标识这个连接，并非用于加密数据；
 - Sec-WebSocket-Version指定了WebSocket的协议版本
 
-![响应](../_templates/Common/G0001_响应.png)
+![响应](../_templates/Common/G0001_RESPONSE.png)
 
 - 该响应代码101表示本次连接的HTTP协议即将被更改；
 - 更改后的协议就是Upgrade: websocket指定的WebSocket协议

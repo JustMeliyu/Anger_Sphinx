@@ -90,4 +90,4 @@ vi进入文档，可分为三种模式，分别是一般模式、编辑模式、
     set spell spelllang=en_us
 
 
-具体配置文件 [vimrc](../Linux/vimrc)
+具体配置文件 [vim](../_templates/Linux/vimrc)

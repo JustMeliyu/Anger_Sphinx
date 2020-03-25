@@ -1,6 +1,6 @@
 **无财作为, 少有斗智, 既饶争时**
 
-TCP/IP 协议
+7.3 TCP/IP 协议
 =============
 
 TCP/IP是一个协议族，包含了HTTP, TCP, UDP, IP, ARP, RARP等多个协议组成
@@ -10,7 +10,7 @@ TCP/IP是一个协议族，包含了HTTP, TCP, UDP, IP, ARP, RARP等多个协议
 
 下图左边是OSI模型的分层，分层较复杂；右边是TCP/IP的分层
 
-![G0003_协议层](../_templates/Common/G0003_协议层.png)
+![G0003_协议层](../_templates/Common/G0003_protocol_layer.png)
 
 1. 应用层：应用层决定了向用户提供应用服务时通信的活动， 比如FTP与DNS服务；HTTP协议属于该层
 2. 传输层：传输层提供两台计算机之间的数据传输，主要包含TCP与UDP协议
@@ -19,7 +19,7 @@ TCP/IP是一个协议族，包含了HTTP, TCP, UDP, IP, ARP, RARP等多个协议
 
 以HTTP协议为例，请求在传递过程中，从上往下，每一层都会对数据头部进行封装，再从下往上解封，实际就是一个入栈与出栈的过程，如下图所示
 
-![入栈&出栈](../_templates/Common/G0003_数据传输封装.jpeg)
+![入栈&出栈](../_templates/Common/G0003_request_warp.jpeg)
 
 ## 应用层
 
@@ -33,7 +33,7 @@ DNS(域名系统)，用于映射域名与IP
 TCP协议是面向连接的，将数据切分为一个个数据包，并标号顺序，进行数据传输，以确保数据能够正常有序到达；
 TCP主要通过端口号来确认应用程序
 #### 三次握手：
-![三次握手](../_templates/Common/G0003_三次握手.jpeg)
+![三次握手](../_templates/Common/G0003_three_handshake.jpeg)
 
 在数据传输开始之前，保证双方建立连接，同步双方序列号
 
@@ -44,7 +44,7 @@ TCP主要通过端口号来确认应用程序
 意义：当一个数据包请求时间过长，比第二次发送数据包还要晚，如果服务器处理这条晚到的请求，并且客户端还进行了响应，就会造成重复；
 
 #### 四次挥手
-![四次挥手](../_templates/Common/G0003_四次挥手.jpeg)
+![四次挥手](../_templates/Common/G0003_four_wave.jpeg)
 
 当数据传输完成，则需要断开连接，即需要四次挥手
 
@@ -65,11 +65,11 @@ TCP主要通过端口号来确认应用程序
 #### TCP与UDP区别及场景
 区别
 
-![TCP&UDP区别](../_templates/Common/G0003_TCP&UDP.jpeg)
+![TCP&UDP区别](../_templates/Common/G0003_TCP&UDP_diff.jpeg)
 
 应用场景
 
-![TCP&UDP场景](../_templates/Common/G0003_TCP&UDP场景.jpeg)
+![TCP&UDP场景](../_templates/Common/G0003_TCP&UDP_sence.jpeg)
 
 ## 网络层
 网络层的主要工作，定义网络地址，区分网段，子网内MAC地址寻址，对于不同子网的数据包进行转发；
@@ -107,7 +107,7 @@ ARP协议先发起一个数据包，头部包含了目的主机的IP地址，再
 - 而对于不同网段，该数据包首先会转发给网关路由器，经过多次转发后，最终被发送到目标主机。目标机接收到数据包后，采用对应的协议，对帧数据进行组装，
 然后再通过一层一层的协议进行解析，最终被应用层的协议解析并交给服务器处理。
 
-![整体流程](../_templates/Common/G0003_整体流程.jpg)
+![整体流程](../_templates/Common/G0003_whole_process.jpg)
 
 整理以上协议([socket](G0001_socket.md),[HTTP](G0002_http.md)):
 

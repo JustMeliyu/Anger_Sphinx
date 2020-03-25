@@ -14,3 +14,4 @@ Contents:
     Algorithm/Algorithm.rst
     Crawler/Crawler.rst
     EnvironmentInstall/EnvironmentInstall.rst
+    Common/Common.rst
