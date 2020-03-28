@@ -18,6 +18,7 @@
 - [1.6 Flask](./source/Python/A0006_flask.md)
 - [1.7 垃圾回收](./source/Python/A0007_GC.md)
 - [1.8 连接池](./source/Python/A0008_pool.md)
+- [1.8 单例模式](./source/Python/A0009_singleton.md)
 
 [Linux篇](./source/Linux/Linux.rst)
 - [2.1 文件权限](./source/Linux/B01_FileAuthority.md)
@@ -37,7 +38,7 @@
 - [4.4 动态规划](./source/Algorithm/D04_DynamicProgramming.md)
 
 [Crawler篇](./source/Crawler/Crawler.rst)
-- [5.1 SCRAPY重要特性](./source/Crawler/E01_ImportantFeature.md)
+- [5.1 Scrapy重要特性](./source/Crawler/E01_ImportantFeature.md)
 
 [环境安装篇](./source/EnvironmentInstall/EnvironmentInstall.rst)
 - [6.1 MongoDB安装](./source/EnvironmentInstall/F01_MongoDB.md)
