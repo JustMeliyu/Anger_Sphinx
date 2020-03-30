@@ -1,9 +1,9 @@
 **无财作为, 少有斗智, 既饶争时**
 
-1 一些python的小知识点
+1.1 一些python的小知识点
 =========================
 
-## 1.1 单下划线与双下划线变量的区别
+## 1.1.1 单下划线与双下划线变量的区别
 
 (1).`_xxx`
 
@@ -29,7 +29,7 @@
 
 <font face="KaiTi" size=5>自己定义变量不要使用这种方式</font>
 
-## 1.2 一些基础方法
+## 1.1.2 一些基础方法
 
 (1) `__new__`
 
@@ -78,3 +78,10 @@ class E(B):
 ```text
 1111
 ```
+
+## 1.1.3 lock
+
+- `acquire(blocking=True, timeout=-1)` 申请锁
+- `release` 释放锁
+- `locked` Return true if the lock is acquired. 
+- `RLock` 区别与 Lock,  RLock 可以在同一线程中多次加锁，但是acquire与release必须成对出现，而Lock在一个线程中只能被加锁一次
