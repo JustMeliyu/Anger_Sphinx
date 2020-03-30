@@ -85,3 +85,41 @@ class E(B):
 - `release` 释放锁
 - `locked` Return true if the lock is acquired. 
 - `RLock` 区别与 Lock,  RLock 可以在同一线程中多次加锁，但是acquire与release必须成对出现，而Lock在一个线程中只能被加锁一次
+
+## 1.1.4 list, set, dict, tuple
+
+(1). set 
+
+`无序集合，不可重复，无切片，无索引。和dict一样，不可保存可变元素`
+所以向set添加list会报错
+
+```python
+a = {1, 2, 3}
+b = {3, 4}
+a.add('python') # a = {1, 2, 3, 'python'}
+b.update('python')  # b = {3, 4, 'p', 'y', 't', 'h', 'o', 'n'}
+a.remove('python')  # a = {1, 2, 3}
+c = a & b   # c = {3}
+d = a | b   # d = {1, 2, 3, 4, 'p', 'y', 't', 'h', 'o', 'n'}
+e = a - b   # e = {1, 2}
+```
+- add, 把一个整体加入到集合中
+- update, 把要传入的元素拆分，作为个体放入到集合中
+- remove, 删除一个集合中一个元素
+- 可以做与或运算, 交集---`&` , 并集---`|`
+- 可以相减
+
+(2). list 
+
+`有序集合, 可增减`
+
+(3). tuple
+
+`有序列表, 一旦初始化, 不可修改`
+
+(4). dict 
+
+`dict的key必须不可变对象dict 根据key用hash算法计算出value的位置，如果key可变，就会出现问题。
+所以元组可以作为他的key，而list不行`
+
+`dict查询效率高，但是消耗内存多；list、tuple查询效率低、但是消耗内存少`
