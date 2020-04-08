@@ -18,7 +18,7 @@
 - [1.6 Flask](./source/Python/A0006_flask.md)
 - [1.7 垃圾回收](./source/Python/A0007_GC.md)
 - [1.8 连接池](./source/Python/A0008_pool.md)
-- [1.8 单例模式](./source/Python/A0009_singleton.md)
+- [1.9 单例模式](./source/Python/A0009_singleton.md)
 
 [Linux篇](./source/Linux/Linux.rst)
 - [2.1 文件权限](./source/Linux/B01_FileAuthority.md)
@@ -30,6 +30,7 @@
 
 [DataBase篇](./source/DataBase/DataBase.rst)
 - [3.1 mysql基础](./source/DataBase/C01_MysqlBasic.md)
+- [3.2 redis](./source/DataBase/C0002_Redis.md)
 
 [Algorithm篇](./source/Algorithm/Algorithm.rst)
 - [4.1 快速排序](./source/Algorithm/D01_QuickSort.md)
