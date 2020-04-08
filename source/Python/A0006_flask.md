@@ -25,5 +25,5 @@ Flask 基于Werkzeug，只保留web开发的核心功能
 
 ## 1.9.2 流程
 
-[流程](../_templates/Python/A0006_flask_flow.png)
+![流程](../_templates/Python/A0006_flask_flow.png)
 
