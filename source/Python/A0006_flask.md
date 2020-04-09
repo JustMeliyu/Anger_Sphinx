@@ -23,7 +23,9 @@ Flask 基于Werkzeug，只保留web开发的核心功能
 3. 在请求中，通过`request`去获取相应的对象
 
 
-## 1.9.2 流程
+## 1.9.3 jinja2
+TML文档中使用控制语句和表达语句替换HTML文档中的变量来控制HTML的显示格式
+
+## 1.9.4 流程
 
 ![流程](../_templates/Python/A0006_flask_flow.png)
-
