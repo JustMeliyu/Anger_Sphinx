@@ -131,3 +131,47 @@ e = a - b   # e = {1, 2}
 所以元组可以作为他的key，而list不行`
 
 `dict查询效率高，但是消耗内存多；list、tuple查询效率低、但是消耗内存少`
+
+## 1.1.5 open
+
+- a 追加
+- w 写
+- r 只读
+- b 以二进制格式
+- + 增加读写操作
+
+## 1.1.6 类方法，静态方法
+
+1. 类方法---classmethod
+可以通过类名或实例化直接调用，在继承的时候可以使用
+```python
+class Pet:
+    _class_info = "pet animals"
+
+    @classmethod
+    def about(cls):
+        print("This class is about " + cls._class_info + "!")
+
+    @staticmethod
+    def about2():
+        print("This clash is about2 " + Pet._class_info)
+
+
+class Dog(Pet):
+    _class_info = "man's best friends"
+
+
+class Cat(Pet):
+    _class_info = "all kinds of cats"
+
+Pet.about()
+Dog.about()
+Cat.about()
+```
+2. 静态方法---staticmethod
+在Python3中，实例化对象不可以访问静态方法
+
+## 1.1.7 三元运算符
+Python没有三元运算符， 但是可以用其他方式代替
+- 传统三元：`b =  a > 1? "执行表达式1":"执行表达式2"`
+- python变形：`h = "变量1" if a>b else "变量2"`
